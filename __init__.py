@@ -8,6 +8,7 @@ def packageinstallationcheck (given_package_name):
     if package_name in installed_packages:
         print(f"{package_name} is already installed.")
         print(f"ComfyUI-SoX-Mixdown will be started.")
+        print(f"Make sure that the SoX command is installed.")
     else:
         print(f"{package_name} is not installed yet.")
         print(f"{package_name} will be installed now.")
