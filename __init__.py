@@ -1,21 +1,22 @@
 import pkg_resources
 import pip
 
-def packageinstallationcheck (given_package_name):
+def packageinstallationcheck (given_package_name, given_product_name):
     package_name = given_package_name
+    product_name = given_product_name
     installed_packages = {pkg.key for pkg in pkg_resources.working_set}
 
     if package_name in installed_packages:
-        print(f"{package_name} is already installed.")
-        print(f"ComfyUI-SoX-Mixdown will be started.")
-        print(f"Make sure that the SoX command is installed.")
+        print(f"["f"{product_name}"f"]"f" {package_name} is already installed.")
+        print(f"["f"{product_name}"f"]"f" {product_name} will be started.")
+        print(f"["f"{product_name}"f"]"f" Make sure that the {package_name} command is installed and the path added.")
     else:
-        print(f"{package_name} is not installed yet.")
-        print(f"{package_name} will be installed now.")
+        print(f"["f"{product_name}"f"]"f" {package_name} is not installed yet.")
+        print(f"["f"{product_name}"f"]"f" {package_name} will be installed now.")
         pip.main(['install', package_name])
-        print(f"{package_name} will be enable after restarting ComfyUI.")
+        print(f"["f"{product_name}"f"]"f" {product_name} will be enable after restarting ComfyUI.")
 
-packageinstallationcheck("sox")
+packageinstallationcheck("sox", "ComfyUI-SoX-Mixdown")
 import sox
 import tempfile
 import torchaudio
