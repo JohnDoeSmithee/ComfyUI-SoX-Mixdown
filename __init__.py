@@ -1,5 +1,4 @@
 import tempfile
-import sox
 import torchaudio
 import pkg_resources
 import pip
@@ -18,6 +17,7 @@ def packageinstallationcheck (given_package_name):
         print(f"{package_name} will be enable after restarting ComfyUI.")
 
 packageinstallationcheck(sox)
+import sox
 
 class SoxMixNode:
     @classmethod
