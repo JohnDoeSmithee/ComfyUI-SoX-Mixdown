@@ -1,3 +1,20 @@
+# Installation
+You can install this node via ComfyUI Manager or comfy-cli.
+
+## Via ComfyUI Manager
+
+Search ComfyUI-SoX-Mixdown and install it.
+
+[https://github.com/ltdrdata/ComfyUI-Manager?tab=readme-ov-file#how-to-use](https://github.com/ltdrdata/ComfyUI-Manager?tab=readme-ov-file#how-to-use)
+
+## Via comfy-cli
+
+```comfy node registry-install comfyui-sox-mixdown```
+
+https://registry.comfy.org/publishers/johndoesmithee/nodes/comfyui-sox-mixdown
+
+https://docs.comfy.org/comfy-cli/getting-started
+
 # ComfyUI-SoX-Mixdown
 ![2to1](./examples/workflow1_2to1.png)
 
@@ -39,6 +56,8 @@ Never forget to add "sox" command to your path.
 # External Links
 ## ComfyUI's docs for making and publishing custom nodes
 https://docs.comfy.org/custom-nodes/overview
+
+https://docs.comfy.org/registry/publishing
 
 <details> <summary> <strong> Tutorials for Making Custom Nodes</strong> </summary>
 
