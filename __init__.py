@@ -7,10 +7,12 @@ def packageinstallationcheck (given_package_name, given_product_name):
     installed_packages = {pkg.key for pkg in pkg_resources.working_set}
 
     if package_name in installed_packages:
+        print(f"")
         print(f"["f"{product_name}"f"]"f" {package_name} is already installed.")
         print(f"["f"{product_name}"f"]"f" {product_name} will be started.")
         print(f"["f"{product_name}"f"]"f" Make sure that the {package_name} command is installed and the path added.")
     else:
+        print(f"")
         print(f"["f"{product_name}"f"]"f" {package_name} is not installed yet.")
         print(f"["f"{product_name}"f"]"f" {package_name} will be installed now.")
         pip.main(['install', package_name])
