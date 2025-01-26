@@ -3,6 +3,8 @@ ComfyUI custom node for sox's mixdown function such as "sox --combine inputfile1
 
 You can mixdown two same length audio clips to one with this node.
 
+To use this node, let's install the SoX command first :)
+
 # External Links
 ## ComfyUI's docs for making and publishing custom nodes
 https://docs.comfy.org/custom-nodes/overview
