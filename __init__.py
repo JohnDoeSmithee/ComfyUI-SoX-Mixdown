@@ -15,7 +15,7 @@ def packageinstallationcheck (given_package_name):
         pip.main(['install', package_name])
         print(f"{package_name} will be enable after restarting ComfyUI.")
 
-packageinstallationcheck(sox)
+packageinstallationcheck("sox")
 import sox
 import tempfile
 import torchaudio
