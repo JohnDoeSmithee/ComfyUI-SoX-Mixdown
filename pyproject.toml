@@ -1,0 +1,15 @@
+[project]
+name = "sox-mixdown"
+description = "ComfyUI custom node for sox's mixdown function such as 'sox --combine inputfile1.wav inputfile2.wav outputfile.wav'."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["sox>=1.5.0"]
+
+[project.urls]
+Repository = "https://github.com/JohnDoeSmithee/ComfyUI-SoX-Mixdown"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-SoX-Mixdown"
+Icon = ""
