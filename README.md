@@ -2,7 +2,7 @@
 ComfyUI custom node for sox's mixdown function such as "sox --combine inputfile1.wav inputfile2.wav outputfile.wav".
 
 # External Links
-## ComfyUI's docs for making and publishing your custom node
+## ComfyUI's docs for making and publishing custom nodes
 https://docs.comfy.org/custom-nodes/overview
 
 ## SoX
