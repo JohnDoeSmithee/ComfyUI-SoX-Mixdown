@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-sox-mixdown"
+description = "A custom node for SoX's mixdown function. Make sure that the sox command is installed and the path added before using this node."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["sox>=1.5.0"]
+
+[project.urls]
+Repository = "https://github.com/JohnDoeSmithee/ComfyUI-SoX-Mixdown"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "johndoesmithee"
+DisplayName = "ComfyUI-SoX-Mixdown"
+Icon = ""
