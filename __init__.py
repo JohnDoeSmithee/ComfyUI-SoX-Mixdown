@@ -1,5 +1,3 @@
-import tempfile
-import torchaudio
 import pkg_resources
 import pip
 
@@ -18,6 +16,8 @@ def packageinstallationcheck (given_package_name):
 
 packageinstallationcheck(sox)
 import sox
+import tempfile
+import torchaudio
 
 class SoxMixNode:
     @classmethod
