@@ -7,7 +7,7 @@ To use this node, let's install the SoX command first ;-)
 You can install SoX with following command.
 
 <details>
-<summary>Installing Commands</summary>
+<summary>SoX Installing Commands</summary>
 
 Windows
 ```
